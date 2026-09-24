@@ -9,11 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f4d7d0;
   background-image: url('C:/Blender/snoopy.jpg');
-  background-size: 18px 18px;
   background-size: cover;
   background-position: center;
+  background-size: 18px 18px;
 }
 
 .card {
@@ -33,7 +32,7 @@ h1, h2 {
 }
 
 .subtitle {
-  color: #d66c6c;
+  color: #d62828;
   font-weight: bold;
 }
 
@@ -49,12 +48,12 @@ input {
   padding: 12px;
   border: 2px solid #111;
   border-radius: 10px;
-  background: #c7b274;
+  background: #fffdf7;
 }
 
 input:focus {
   outline: none;
-  border-color: #a81b1bb4;
+  border-color: #d62828;
 }
 
 button {
@@ -63,8 +62,8 @@ button {
   padding: 12px;
   border: 3px solid #111;
   border-radius: 10px;
-  background: #974848;
-  color: rgb(88, 72, 72);
+  background: #d62828;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 4px 4px 0 #111;
@@ -79,7 +78,7 @@ button:hover {
 
 button:active {
   transform: translate(0, 0);
-  box-shadow: 2px 2px 0 #000000;
+  box-shadow: 2px 2px 0 #111;
 }
 
 .hidden {
@@ -89,5 +88,5 @@ button:active {
 #message, #registerMessage {
   min-height: 20px;
   font-weight: bold;
-  color: #5f1515;
+  color: #d62828;
 }
